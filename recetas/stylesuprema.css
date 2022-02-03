@@ -1,0 +1,29 @@
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #2a2932 ;
+    font-size: 20px;
+    color: white;
+}
+#inicio{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Sofia', cursive;
+    color: white;
+    text-decoration: none;
+    width: 13em;
+}
+h1{
+    text-align: center;
+    color: crimson;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+}
+img{
+    margin: auto;
+    display: block;
+}
