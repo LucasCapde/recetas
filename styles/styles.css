@@ -1,0 +1,81 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2a2932 ;
+    font-size: 20px;
+    color: white;
+    padding: 15px 20px;
+    z-index: 20;
+}
+#inicio{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Sofia', cursive;
+    width: 13em;
+    background-color: #2a2932;
+    color: white;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: crimson;
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+}
+img#index{
+    padding-left: 42px;
+    margin: 0px;
+}
+img{
+    margin: auto;
+    display: block;
+}
+p{
+    font-size: medium;
+}
+ul.index{
+    align-items: center;
+    display: block;
+    flex-direction: column;
+    padding-left: 50px;
+}
+ul.listarecetas>li{
+    display: list-item;
+    list-style: initial;
+    padding: 0px;
+    width: auto;
+}
+ol.listarecetas>li{
+    display: list-item;
+    list-style: decimal;
+    padding: 0px;
+    width: auto;
+}
+li{
+    padding: 5px;
+    width: 16em;
+    list-style: none;
+}
+.lista{
+    background-color: rgb(15, 20, 48);
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+a.lista:hover{
+    opacity: 0.5;
+    background-color: gold;
+    color: black;
+}
